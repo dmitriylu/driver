@@ -1,0 +1,27 @@
+.footer {
+  padding-bottom: 55px;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 55px;
+  border-top: 2px dashed #9fa4b6;
+}
+.footer__copyright {
+  a {
+    color: $color-secondary;
+  }
+}
+.footer__contact {
+  display: flex;
+  &-item {
+    margin-left: 65px;
+  }
+}
+.footer__email {
+  color: $color-secondary;
+}
+.footer__telegram {
+  color: #329fdd;
+}

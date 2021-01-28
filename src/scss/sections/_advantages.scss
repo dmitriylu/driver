@@ -1,0 +1,23 @@
+.advantages {
+  background-color: $color-pimary;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+.advantages__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.advantage {
+  width: 25%;
+  text-align: center;
+  padding: 0 20px;
+  margin-bottom: 85px;
+}
+.advantage__title {
+  font-size: 18px;
+}
+.advantage__icon {
+  height: 100px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,90 @@
+.request-demo {
+  padding-bottom: 70px;
+}
+.request-demo__form{
+  max-width: 560px;
+  background-color: $color-pimary;
+  padding: 40px;
+  border-radius: 16px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  .icon-bg--1 {
+    top: 63px;
+    left: -90px;
+  }
+  .icon-bg--2 {
+    top: 96px;
+    right: -250px;
+  }
+  .icon-bg--3 {
+    top: 300px;
+    right: -127px;
+  }
+  .icon-bg--4 {
+    top: 251px;
+    left: -263px;
+  }
+  .icon-bg--5 {
+    bottom: 202px;
+    left: -57px;
+  }
+  .icon-bg--6 {
+    right: -200px;
+    bottom: 94px;
+  }
+}
+.form__input,
+.form__textarea {
+  width: 100%;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  padding: 22px 15px 22px 29px;
+  margin-bottom: 30px;
+  &::placeholder {
+    color: #ffffff;
+    @include font ($font-primary,24,700);
+    line-height: 48px;
+  }
+}
+.form__input {
+  padding: 22px 15px 22px 29px;
+}
+.form__textarea {
+  min-height: 240px;
+  @include font ($font-primary,24,700);
+  line-height: 48px;
+}
+.request-demo__form-btn {
+  width: 100%;
+  padding: 20px 0;
+}
+.request-demo__photo {
+  text-align: center;
+  margin-top: -100px;
+  position: relative;
+  z-index: 1;
+  .icon-bg--1 {
+    top: 166px;
+    left: 300px;
+  }
+  .icon-bg--2 {
+    left: 580px;
+    top: 210px;
+  }
+  .icon-bg--3 {
+    right: 350px;
+    top: 115px;
+  }
+  .icon-bg--4 {
+    bottom: 65px;
+    left: 100px;
+    transform: rotate(90deg);
+  }
+  .icon-bg--5 {
+    bottom: -25px;
+    left: 530px;
+    
+  }
+}

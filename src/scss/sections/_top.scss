@@ -1,0 +1,41 @@
+.top {
+  padding-top: 76px;
+  padding-bottom: 84px;
+}
+.top__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 114px;
+}
+.top__about {
+  max-width: 686px;
+}
+.top__title {
+  font-size: 60px;
+  line-height: 72px;
+  margin-bottom: 85px;
+}
+.top__text {
+  font-size: 18px;
+  margin-bottom: 81px;
+}
+.top__form {
+  .form {
+    &__input {
+      max-width: 370px;
+      width: 100%;
+      margin-right: 20px;
+      padding: 22px 15px 22px 29px;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 8px;
+      &::placeholder {
+        @include font ($font-primary,16,400);
+        color: rgba(0, 0, 0, 0.4);
+        line-height: 48px;
+      }
+    }
+  }
+}
+.top__image {
+  padding-top: 30px;
+}

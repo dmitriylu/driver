@@ -1,0 +1,13 @@
+.partners {
+  padding-bottom: 70px;
+}
+.partners__brands {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.partners__brand {
+  padding: 0 15px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,15 @@
+.applications {
+  background-color: $color-bg-sectin-secondary;
+  padding: 37px 0;
+}
+.applications__inner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.applications__about {
+  max-width: 525px;
+}
+.applications__title {
+  margin-bottom: 44px;
+}

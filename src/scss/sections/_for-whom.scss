@@ -1,0 +1,23 @@
+.for-whom {
+  padding-bottom: 121px;
+}
+
+.for-whom__inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+.for-whom__item {
+  flex-grow: 1;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+.for-whom__card {
+  max-width: 373px;
+  &-img {
+    margin-bottom: 44px;
+  }
+  &-title {
+    margin-bottom: 44px;
+  }
+}

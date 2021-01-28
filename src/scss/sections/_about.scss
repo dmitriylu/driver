@@ -1,0 +1,37 @@
+.about {
+  background-color: $color-pimary;
+  padding: 220px 510px;
+  position: relative;
+  z-index: 1;
+  .icon-bg--1 {
+    left: 308px;
+    top: 123px;
+  }
+  .icon-bg--2 {
+    top: 90px;
+    right: 771px;
+  }
+  .icon-bg--3 {
+    right: 555px;
+    bottom: 217px;
+  }
+  .icon-bg--4 {
+    top: 206px;
+    left: 766px;
+  }
+  .icon-bg--5 {
+    right: 756px;
+    bottom: -10px;
+  }
+  .icon-bg--6 {
+    bottom: 82px;
+    left: 683px;
+  }
+}
+
+.about__text {
+  @include font ($font-primary,24,700);
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}

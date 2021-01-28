@@ -1,0 +1,120 @@
+
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    @include font ($font-primary,16,400);
+    min-width: 320px;
+    overflow-x: hidden;
+}
+.container {
+    max-width: 1355px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-lg {
+    max-width: 1630px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+p {
+    line-height: 32px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-primary;
+    font-weight: 700;
+}
+h3 {
+    font-size: 24px;
+    line-height: 36px;
+}
+.section-heading {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+.section-title {
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    padding: 124px 0;
+}
+.section-text {
+    text-align: center;
+    font-size: 18px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+}
+.logo {
+    width: 100px;
+    text-align: center;
+    &__link {
+        @include font ($font-secondary,32,700);
+    }  
+}
+.btn {
+    border: none;
+    @include font ($font-primary,14,700);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: $color-secondary;
+    color: #ffffff;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    padding: 20px 34px;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    &:hover {
+        background-color: #573ee6;
+    }
+}
+.icons-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.icons-background__item {
+    position: absolute;
+}
+.scroll-top {
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+    border-radius: 8px;
+    border: 1px solid $color-pimary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(2, 2, 2, 0.22);
+    z-index: 3;
+    transition: ease 1s;
+    &__item {
+        width: 3px;
+        border-radius: 4px;
+        height: 20px;
+        background-color: $color-pimary;
+        display: inline-block;
+        transform: rotate(45deg)translate(-2px,3px);
+        &:last-child {
+            transform: rotate(-45deg)translate(3px,4px);
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.menu__list {
+  display: flex;
+  &-item {
+    margin-right: 60px;
+  }
+  &-link {
+    font-size: 14px;
+    transition: all 0.3s ease;
+    &:hover {
+      text-decoration: underline;
+      color: $color-pimary;
+    }
+  }
+}
